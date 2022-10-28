@@ -69,6 +69,19 @@
         margin-top: 80px;
     }
 
+    /* google cloude badges */
+
+    .view-badges-btn{
+        font-size: 15px;
+        padding: 5px;
+        padding-left: 10px;
+        width: 110px;
+    }
+
+
+
+
+
     /* projects */ 
 
     .projects h2{
