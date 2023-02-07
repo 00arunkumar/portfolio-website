@@ -21,7 +21,7 @@ html{
 }
 
 .nav{
-    margin-left: 20%;
+    margin-left: 15%;
     margin-top: 25px;
 }
 .nav li{
@@ -269,6 +269,25 @@ html{
 }
 
 
+/* Experience */
+
+.experience{
+    margin-top: 10%;
+    
+}
+
+.experience h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 450%;
+    margin-bottom: 5%;
+}
+
+.experience img{
+    margin-left: 15%;
+    width: 70%;
+}
 
 
 
