@@ -92,6 +92,16 @@
 
 </div>
 
+<!-- Dashboards-->
+<div class="dashboards">
+   
+    <img src="/assserts/dashboards.gif">
+
+    <a href="https://public.tableau.com/app/profile/tarun.kumar7513/vizzes" target="_blank" class="view-dashboard-btn">View Dashboards</a>
+
+
+</div>
+
 
 
 <!-- Experience -->
@@ -203,7 +213,7 @@
     </div>
 
     <div class="download-resume-btn">
-        <a href="https://drive.google.com/file/d/1m5qLE6KIkmgDIiKLVpO5LnyzjTaPhp4d/view?usp=sharing" target="_blank">Download Resume</a>
+        <a href="https://drive.google.com/file/d/1vqjdAHVBsa0yJda7bnQFljcU35xHSI-Y/view?usp=sharing" target="_blank">Download Resume</a>
 
     </div>
     
@@ -229,6 +239,29 @@
     </div>
     
 </div>
+
+<script>
+// *********************    javascript to make nav bar sticky*********************************** 
+
+
+// When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+// Get the navbar
+var navbar = document.getElementsByClassName("navbar");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
 
 
 </body>
